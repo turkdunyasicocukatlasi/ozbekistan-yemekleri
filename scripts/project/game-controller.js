@@ -160,6 +160,7 @@ class UzbekFoodGame
 		this.introVideo.addEventListener("ended", () => this.showIntroReady());
 		this.intro.append(this.introVideo, shade, videoPlay, card, skip);
 		document.body.append(this.intro);
+		document.getElementById("preConstructCover")?.remove();
 	}
 
 	setIntroState(state)
