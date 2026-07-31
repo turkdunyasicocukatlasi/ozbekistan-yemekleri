@@ -172,7 +172,7 @@ class UzbekFoodGame
 	startIntroVideo()
 	{
 		this.setIntroState("playing");
-		this.introVideo.playbackRate = 1.15;
+		this.introVideo.playbackRate = .8;
 		this.introVideo.currentTime = 0;
 		if (this.music && this.musicEnabled)
 		{
